@@ -23,15 +23,6 @@ jobs:
         repository: txt2021/GitLab_Testing_WebdriverIO-Cucumber_HTMLreport
         ref:  report
         path: ./docs
-    #- name: Generate Allure Report
-    #  if: always()
-    #  run: npm run report-generate
-    #- uses: actions/upload-artifact@v2
-    #  if: always()
-    #  with:
-    #    name: report
-    #    path: allure-report/
-    #    retention-days: 30
     - name: Push to repository
       uses: cpina/github-action-push-to-another-repository@main
       if: always()
