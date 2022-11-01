@@ -1,4 +1,4 @@
-# GitLab_Testing_WebdriverIO-Cucumber
+# GitLab_Testing_WebdriverIO-Cucumber_HTMLreport
 
 Project for testing GitLab website: https://about.gitlab.com/
 
@@ -13,7 +13,7 @@ Node.js : 14^
 
 ## Install
 ```
-git clone https://github.com/txt2021/GitLab_Testing_WebdriverIO-Cucumber.git
+git clone https://github.com/txt2021/GitLab_Testing_WebdriverIO-Cucumber_HTMLreport.git
 ```
 
 ```
@@ -29,13 +29,5 @@ npm run wdio
 
 To create report
 
-```
-npm run report-generate
-```
-
-To open report
-
-```
-npm run report-open
-```
+HTML report will be created automatically after tests execution
 

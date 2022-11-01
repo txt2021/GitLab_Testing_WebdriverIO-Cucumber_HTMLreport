@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
       if: always()
       with:
-        repository: txt2021/GitLab_Testing_WebdriverIO-Cucumber
+        repository: txt2021/GitLab_Testing_WebdriverIO-Cucumber_HTMLreport
         ref:  report
         path: ./docs
     #- name: Generate Allure Report
@@ -40,7 +40,7 @@ jobs:
       with:
         source-directory: 'report'
         destination-github-username: 'txt2021'
-        destination-repository-name: 'GitLab_Testing_WebdriverIO-Cucumber'
+        destination-repository-name: 'GitLab_Testing_WebdriverIO-Cucumber_HTMLreport'
         user-email: txt2021@gmail.com
         target-branch: report
 
