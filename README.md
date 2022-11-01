@@ -4,6 +4,8 @@ Project for testing GitLab website: https://about.gitlab.com/
 
 20 test cases for sign up, search, navigation, support services, free trial and talk to an experts areas
 
+This project uses an HTML reporter
+
 ## Requirements
 webdriverIO: 7^
 
